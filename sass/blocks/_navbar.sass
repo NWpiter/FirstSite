@@ -35,8 +35,10 @@
   color: #ffffff
   transition: 0.2s
   transform: translateY(-280%)
+  opacity: 0
   &_active
     transform: translateY(0)
+    opacity: 1
   &__nav
     display: flex
     align-items: center
@@ -86,8 +88,5 @@
     top: 60px
     &-button
       height: 60px
-    &__nav
-      flex-direction: column
-    &__link
-      margin-bottom: 20px
+
 
